@@ -518,7 +518,7 @@ int BuscarDocReuniao(FichaReuniao *q, int n, int j, int opcao){
 
     j--; // j esta ganhando uma posição, entao volta uma posição
 
-    if(achou = true){
+    if(achou == true){
         do{
             printf("\n----------------------------------------------------------\n\n");
             printf("\nDeseja editar? S(sim), N(não).");
@@ -684,7 +684,7 @@ int BuscarReFuncionario(funcionario *r, int m, int y, int opcao){
             printf("Qual dado quer editar:\n");
             printf("[1] Editar Nome\n");
             printf("[2] Editar Número de Registro\n");
-            printf("[3] Editar Telefone\n);
+            printf("[3] Editar Telefone\n");
             printf("[4] Editar Endereço\n");
             printf("[5] Editar Data de entrada\n");
             printf("[0] Sair\n");
@@ -870,7 +870,7 @@ void main(){
                 printf("[6] Visualizar cadastro de funcionario, por data de contratação ou todos contratados.\n");
                 printf("[7] Realizar busca por (CPF/CNPJ) e edição das Visitas.\n");
                 printf("[8] Realizar busca por (CPF/CNPJ) e edição das Reuniões.\n");
-                printf("[9] Realizar busca por RE e edição de alterar dados de funcionario.\n");
+                printf("[9] Realizar busca por RE e edição de dados de funcionarios.\n");
                 printf("[10] Apagar agendamentos feitos.\n");
                 printf("[0] Encerrar o programa.\n");
                 printf("\n----------------------------------------------------------\n\n");
